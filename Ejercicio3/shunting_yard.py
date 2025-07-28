@@ -102,7 +102,7 @@ def procesar_archivo(nombre_archivo):
     except FileNotFoundError:
         print(f"Archivo '{nombre_archivo}' no encontrado.")
 
-# Ejecución principal
+
 if __name__ == "__main__":
-    archivo_entrada = "C:/Users/jlope/Documents/UVG/Teoria/Lab2/Ejercicio3/expresiones.txt" #No funciono con la ruta relativa
+    archivo_entrada = "C:/Users/jlope/Documents/UVG/Teoria/Lab2/Ejercicio3/expresiones.txt" #No funciono con la ruta relativa "Lab2\Ejercicio3\expresiones.txt"
     procesar_archivo(archivo_entrada)
